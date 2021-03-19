@@ -1,0 +1,22 @@
+/* Author:  Kenneth Smith
+   Date:    12/15/2007
+   CSCI Final Project
+   This page controls the appearance of the links within the mfhblinks.htm
+   and the mfhbcast.htm pages.
+   This page contains 1 of 10 examples of a technique or HTML tag used in
+   our textbook.  This is the 2nd of 2 extra examples with 8 being the required
+   number.  List below is an example of a link rollover
+   File:  mfhblinks.css */
+
+body {background-color:  chocolate; font-family: sans-serif; color: white}
+/*  The following is an example of a link rollover created with multiple pseudo-classes.
+    A pseudo-class is a classification of an element based on its status, position,
+    or current use in the document.  For example, one pseudo-class indicates whether
+    a link has been previously visited by the user.  Another pseudo-class indicates
+    whether a link is currently being activated or clicked.--Session 7.2, page 387-388
+    (10th of 10 examples.  This is the 2nd of 2 extra examples.)  */
+#mlinks a:link {text-decoration: none}
+#mlinks a:visited {text-decoration: none; color: white}
+#mlinks a:hover {text-decoration: none; color: black; background-color: rgb(250,235,215)}
+#mlinks a:active {text-decoration: none; color: yellow; background-color: chocolate}
+

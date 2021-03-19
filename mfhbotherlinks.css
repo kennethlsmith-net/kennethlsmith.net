@@ -1,0 +1,13 @@
+/* Author:  Kenneth Smith
+   Date:    12/15/2007
+   CSCI Final Project
+   This sheet controls the appearance of all the links within the website with the 
+   exception of the mfhblinks.htm and the mfhbcast.htm pages.
+   File:  mfhbotherlinks.css */
+
+body {background-color:  rgb(250,235,215); font-family: sans-serif; color: chocolate}
+#otherlinks a:link {text-decoration: none; color: chocolate}
+#otherlinks a:visited {text-decoration: none}
+#otherlinks a:hover {text-decoration: none; color: white; background-color: chocolate}
+#otherlinks a:active {text-decoration: none; color: maroon; background-color: rgb(250,235,215)}
+
