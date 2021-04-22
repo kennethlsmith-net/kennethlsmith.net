@@ -2,6 +2,63 @@
     background-color: #ffefe0;
   }
 
+
+#animated_div {
+width:175px;
+height:27px;
+background-color: transparent;
+color: #000000;
+position: relative;
+font-weight:bold;
+font-size:22px;
+-webkit-animation:animated_div 5s 1;
+-webkit-border-radius:5px;
+animation:animated_div 5s 1;
+border-radius:5px;
+-moz-animation:animated_div 5s 1;
+-o-animation:animated_div 5s 1;
+}
+
+@-webkit-keyframes animated_div
+{
+0% { transform: rotate(0deg);left:0%;background-color: transparent;}
+25% {transform:  rotate(20deg);left:0%;background-color: transparent;}
+50% {transform:  rotate(0deg);left:75%;background-color:#CCBFB3;}
+55% {transform:  rotate(0deg);left:75%;background-color:#CCBFB3;}
+70% { transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0%;}
+}
+
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0%;background-color: transparent;}
+25% {transform: rotate(20deg);left:0%;background-color: transparent;}
+50% {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+55% {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+70% {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0%;}
+}
+
+@-moz-keyframes animated_div
+{
+0%  {transform: rotate(0deg);left:0%;background-color: transparent;}
+25% {transform: rotate(20deg);left:0%;background-color: transparent;}
+50%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+55%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+70%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0%;}
+}
+
+@-o-keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0%;background-color: transparent;}
+25% {transform: rotate(20deg);left:0%;background-color: transparent;}
+50%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+55%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+70%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0%;}
+}
+
   body::before {
     content: "";
     background: url("../images/boat with view_number_LI.jpg") no-repeat center center fixed;
@@ -16,18 +73,18 @@
     opacity: .20;
   }
 
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #7d7d7d;
-    border-width: 5px;
-    width: 5%;
-  }
-
   h1 {
     color: #7d7d7d;
   }
 
   h3 {
     color: #7d7d7d;
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #7d7d7d;
+    border-width: 5px;
+    width: 5%;
   }
