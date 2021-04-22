@@ -21,42 +21,42 @@ border-radius:5px;
 
 @-webkit-keyframes animated_div
 {
-0% { transform: rotate(0deg);left:0%;background-color: transparent;}
-25% {transform:  rotate(20deg);left:0%;background-color: transparent;}
-50% {transform:  rotate(0deg);left:75%;background-color:#CCBFB3;}
-55% {transform:  rotate(0deg);left:75%;background-color:#CCBFB3;}
-70% { transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-100% {transform: rotate(-360deg);left:0%;}
+0% { transform: rotate(0);left:0;background-color: transparent;}
+25% {transform:  rotate(20deg);left:0;background-color: transparent;}
+50% {transform:  rotate(0);left:75%;background-color:#CCBFB3;}
+55% {transform:  rotate(0);left:75%;background-color:#CCBFB3;}
+70% { transform: rotate(0);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0;}
 }
 
 @keyframes animated_div
 {
-0% {transform: rotate(0deg);left:0%;background-color: transparent;}
-25% {transform: rotate(20deg);left:0%;background-color: transparent;}
-50% {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-55% {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-70% {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-100% {transform: rotate(-360deg);left:0%;}
+0% {transform: rotate(0);left:0;background-color: transparent;}
+25% {transform: rotate(20deg);left:0;background-color: transparent;}
+50% {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+55% {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+70% {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0;}
 }
 
 @-moz-keyframes animated_div
 {
-0%  {transform: rotate(0deg);left:0%;background-color: transparent;}
-25% {transform: rotate(20deg);left:0%;background-color: transparent;}
-50%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-55%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-70%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-100% {transform: rotate(-360deg);left:0%;}
+0%  {transform: rotate(0);left:0;background-color: transparent;}
+25% {transform: rotate(20deg);left:0;background-color: transparent;}
+50%  {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+55%  {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+70%  {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0;}
 }
 
 @-o-keyframes animated_div
 {
-0% {transform: rotate(0deg);left:0%;background-color: transparent;}
-25% {transform: rotate(20deg);left:0%;background-color: transparent;}
-50%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-55%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-70%  {transform: rotate(0deg);left:75%;background-color:#CCBFB3;}
-100% {transform: rotate(-360deg);left:0%;}
+0% {transform: rotate(0);left:0;background-color: transparent;}
+25% {transform: rotate(20deg);left:0;background-color: transparent;}
+50%  {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+55%  {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+70%  {transform: rotate(0);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0;}
 }
 
   body::before {
