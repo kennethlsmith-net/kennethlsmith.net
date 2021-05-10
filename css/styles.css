@@ -4,7 +4,7 @@
 
 .name_animation {
 width:175px;
-height:27px;
+height: relative;
 background-color: transparent;
 color: #000000;
 position: relative;
