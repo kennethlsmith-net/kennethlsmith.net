@@ -3,21 +3,21 @@
   }
 
 .name_animation {
-width:180px;
-height:27px;
+width:218px;
+height:31px;
 background-color: transparent;
 color: #000000;
 position: relative;
 font-weight:bold;
-font-size:20px;
-animation:name_animation 5s 1;
-border-radius:5px;
+/*font-size:20px;*/
 -webkit-animation:name_animation 5s 1;
 -webkit-border-radius:5px;
 -moz-animation:name_animation 5s 1;
 -moz-border-radius:5px;
 -o-animation:name_animation 5s 1;
 -o-border-radius:5px;
+animation:name_animation 5s 1;
+border-radius:5px;
 }
 
 @keyframes name_animation
