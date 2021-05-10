@@ -2,7 +2,6 @@
     background-color: #ffefe0;
   }
 
-
 .name_animation {
 width:175px;
 height:27px;
@@ -11,25 +10,15 @@ color: #000000;
 position: relative;
 font-weight:bold;
 font-size:22px;
--webkit-animation:animated_div 5s 1;
+-webkit-animation:name_animation 5s 1;
 -webkit-border-radius:5px;
-animation:animated_div 5s 1;
+animation:name_animation 5s 1;
 border-radius:5px;
--moz-animation:animated_div 5s 1;
--o-animation:animated_div 5s 1;
+-moz-animation:name_animation 5s 1;
+-o-animation:name_animation 5s 1;
 }
 
-@-webkit-keyframes animated_div
-{
-0% { transform: rotate(0);left:0;background-color: transparent;}
-25% {transform:  rotate(20deg);left:0;background-color: transparent;}
-50% {transform:  rotate(0);left:75%;background-color:#CCBFB3;}
-55% {transform:  rotate(0);left:75%;background-color:#CCBFB3;}
-70% { transform: rotate(0);left:75%;background-color:#CCBFB3;}
-100% {transform: rotate(-360deg);left:0;}
-}
-
-@keyframes animated_div
+@keyframes name_animation
 {
 0% {transform: rotate(0);left:0;background-color: transparent;}
 25% {transform: rotate(20deg);left:0;background-color: transparent;}
@@ -39,7 +28,17 @@ border-radius:5px;
 100% {transform: rotate(-360deg);left:0;}
 }
 
-@-moz-keyframes animated_div
+@-webkit-keyframes name_animation
+{
+0% { transform: rotate(0);left:0;background-color: transparent;}
+25% {transform:  rotate(20deg);left:0;background-color: transparent;}
+50% {transform:  rotate(0);left:75%;background-color:#CCBFB3;}
+55% {transform:  rotate(0);left:75%;background-color:#CCBFB3;}
+70% { transform: rotate(0);left:75%;background-color:#CCBFB3;}
+100% {transform: rotate(-360deg);left:0;}
+}
+
+@-moz-keyframes name_animation
 {
 0%  {transform: rotate(0);left:0;background-color: transparent;}
 25% {transform: rotate(20deg);left:0;background-color: transparent;}
@@ -49,7 +48,7 @@ border-radius:5px;
 100% {transform: rotate(-360deg);left:0;}
 }
 
-@-o-keyframes animated_div
+@-o-keyframes name_animation
 {
 0% {transform: rotate(0);left:0;background-color: transparent;}
 25% {transform: rotate(20deg);left:0;background-color: transparent;}
