@@ -75,17 +75,17 @@ border-radius:5px;
   }
 
   h1 {
-    color: #7d7d7d;
+    color: #000000;;
   }
 
   h3 {
-    color: #7d7d7d;
+    color: #000000;;
   }
 
   hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #7d7d7d;
+    border-color: #000000;;
     border-width: 5px;
     width: 5%;
   }
