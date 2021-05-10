@@ -10,12 +10,14 @@ color: #000000;
 position: relative;
 font-weight:bold;
 font-size:20px;
--webkit-animation:name_animation 5s 1;
--webkit-border-radius:5px;
 animation:name_animation 5s 1;
 border-radius:5px;
+-webkit-animation:name_animation 5s 1;
+-webkit-border-radius:5px;
 -moz-animation:name_animation 5s 1;
+-moz-border-radius:5px;
 -o-animation:name_animation 5s 1;
+-o-border-radius:5px;
 }
 
 @keyframes name_animation
