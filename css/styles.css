@@ -78,7 +78,7 @@ border-radius:5px;
 
   body::before {
     content: "";
-    background: url("../images/boat with view_number_LI.jpg") no-repeat center center fixed;
+    background: url("../images/Kennedy_Chipmunk.jpg") no-repeat center center fixed;
     background-size: cover;
     display: block;
     position: fixed;
